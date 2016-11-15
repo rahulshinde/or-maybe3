@@ -237,10 +237,12 @@ a:hover{
 	}
 
 	.slideshow img{
-		padding-top: 1rem;
-		padding-left: 4rem;
-		padding-right: 4rem;
-		height: 80vh;
+		top: 0;
+		margin-top: 0;
+		padding-top: 0rem;
+		padding-left: 0rem;
+		padding-right: 0rem;
+		height: 100vh;
 	}
 
 	.header{
