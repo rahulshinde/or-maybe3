@@ -8,9 +8,17 @@ $(document).ready( function(){
   $('#about_link').mouseenter(addShow);
   $('#about_link').mouseleave(removeShow);
 
+  $('#logo').click(scrollTo);
+
   $(window).resize(changeRootFontSize);
   carousel();
 })
+
+scrollTo = function() {
+  $('html,body').animate({
+        scrollTop: $(".content").offset().top},
+        750);
+}
 
 carousel = function() {
       var i;
