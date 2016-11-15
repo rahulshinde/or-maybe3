@@ -220,3 +220,30 @@ a:hover{
 	text-align: center;
 	padding-bottom: 50vh
 }
+
+@media (max-width: 800px) {
+	.content{
+		margin-top: 0;
+	}
+	.content h1{
+		padding: 0;
+		position: fixed;
+		top: 4.5rem;
+		width: 100%;
+		font-family: 'Roboto Condensed', sans-serif;
+		text-align: left;
+		color:white;
+		font-size: 12rem;
+	}
+
+	.slideshow img{
+		padding-top: 1rem;
+		padding-left: 4rem;
+		padding-right: 4rem;
+		height: 80vh;
+	}
+
+	.header{
+		display: none;
+	}
+}
