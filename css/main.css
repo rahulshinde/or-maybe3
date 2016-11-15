@@ -165,6 +165,10 @@ a:hover{
 	height: auto;
 }
 
+#logo:hover{
+	cursor: cell;
+}
+
 #about_long_description{
 	opacity: 0;
 	z-index: 100;
