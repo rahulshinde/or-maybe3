@@ -8,9 +8,17 @@ $(document).ready( function(){
   $('#about_link').mouseenter(addShow);
   $('#about_link').mouseleave(removeShow);
 
+  $('#logo').click(scrollTo);
+
   $(window).resize(changeRootFontSize);
   carousel();
 })
+
+scrollTo = function() {
+  $('html,body').animate({
+        scrollTop: $(".content").offset().top},
+        750);
+}
 
 carousel = function() {
       var i;
@@ -21,7 +29,7 @@ carousel = function() {
       slideIndex++;
       if (slideIndex > x.length) {slideIndex = 1} 
       x[slideIndex-1].style.display = "block"; 
-      setTimeout(carousel,400); // Change image every 2 seconds
+      setTimeout(carousel,700); // Change image every 2 seconds
   }
 
 changeRootFontSize = function(el) {
