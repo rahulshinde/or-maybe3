@@ -273,8 +273,8 @@ a:hover{
 
 .content {
 	margin-top: 100vh;
-	padding-top: 100vh;
-	padding-bottom: 1rem;
+	padding-top: 95vh;
+	padding-bottom: 2rem;
 	background-color: white;
 	z-index: 0;
 }
