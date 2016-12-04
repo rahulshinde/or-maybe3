@@ -131,6 +131,27 @@ a:hover {
   height: auto;
 }
 
+#index{
+  position: fixed;
+  top: 17rem;
+  right: 0rem;
+  transform: rotate(90deg) scale(1, 2.2);
+  -webkit-transform: rotate(90deg) scale(1, 2.2);
+
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.3rem;
+  z-index: 100;
+  text-transform: uppercase;
+  color: red;
+  text-align: justify;
+  border-bottom: 1px solid red;
+}
+
+#index:hover{
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+
 /* Projects */
 
 .project_archive_wrap{
@@ -214,4 +235,27 @@ a:hover {
 .text_link:hover{
   background-color: yellow;
   border: 2px solid yellow;
+}
+
+.img_container{
+  display: block;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.half{
+  margin-top: 1rem;
+  width: 42%;
+}
+
+.third{
+  margin-top: -1rem;
+  width: 20%;
+}
+
+.img_container img{
+  display: inline-block;
+  vertical-align: middle;
 }
