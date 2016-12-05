@@ -16,8 +16,8 @@ $(document).ready( function(){
 
 scrollTo = function() {
   $('html,body').animate({
-        scrollTop: $(".content").offset().top},
-        750);
+        scrollTop: $(".first").offset().top},
+        1000);
 }
 
 carousel = function() {

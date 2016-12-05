@@ -26,7 +26,7 @@
 
 .fancybox-skin {
 	position: relative;
-	background: blue;
+	background: white;
 	color: #444;
 	text-shadow: none;
 }
@@ -98,7 +98,7 @@
 	margin-top: -22px;
 	margin-left: -22px;
 	background-position: 0 -108px;
-	opacity: 0.8;
+	opacity: 1s;
 	cursor: cell;
 	z-index: 8060;
 }
@@ -113,8 +113,8 @@
 	position: absolute;
 	top: 10;
 	right: 10px;
-	width: 36px;
-	height: 36px;
+	width: 50px;
+	height: 50px;
 	cursor: cell;
 	z-index: 8040;
 }
@@ -142,8 +142,8 @@
 .fancybox-nav span {
 	position: absolute;
 	top: 50%;
-	width: 36px;
-	height: 34px;
+	width: 50px;
+	height: 50px;
 	margin-top: -18px;
 	cursor: cell;
 	z-index: 8040;
