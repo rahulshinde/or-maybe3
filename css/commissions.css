@@ -131,7 +131,7 @@ a:hover {
   height: auto;
 }
 
-#index{
+#index span{
   position: fixed;
   top: 17rem;
   right: 0rem;
@@ -147,7 +147,52 @@ a:hover {
   border-bottom: 1px solid red;
 }
 
-#index:hover{
+#index #close_index{
+  right: 0.8rem;
+}
+
+.index_button{
+  display: none;
+}
+
+.index_button.show{
+  display: block;
+}
+
+#project_index{
+  position: fixed;
+  padding-top: 3rem;
+  width: 100%;
+  overflow-y: scroll;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  z-index: 50;
+  text-align: center;
+  display: block;
+
+}
+
+#project_index.show{
+  left:0;
+}
+
+#project_index a{
+  text-align: center;
+  display: block;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 5rem;
+  line-height: 2em;
+  font-style: italic;
+  color: red;
+  text-decoration: none;
+}
+
+#project_index a:hover{
+  text-shadow: 0 0 10px red;
+}
+
+#index span:hover{
   border-bottom: 1px solid white;
   cursor: pointer;
 }
@@ -245,13 +290,17 @@ a:hover {
   vertical-align: middle;
 }
 
-.half{
-  margin-top: 1rem;
-  width: 42%;
+.web{
+  margin-top: 2rem;
+  width: 60%;
+}
+
+.mobile{
+  margin-top: 4rem;
+  width: 25%;
 }
 
 .third{
-  margin-top: -1rem;
   width: 20%;
 }
 
